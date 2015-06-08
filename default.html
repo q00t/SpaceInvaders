@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>SpaceInvaders.Windows</title>
+
+        <!-- WinJS references -->
+        <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+        <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+        <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+        <!-- SpaceInvaders.Windows references -->
+        <link href="css/default.css" rel="stylesheet" />
+
+        <script src="/js/default.js"></script>
+
+    </head>
+    <body>
+        <p id="h1" style="color:blue">Space Invaders</p>
+
+        <img id="heroSpriteSheet" class="hiddenImage" src="images/hero-ss.png"/>
+        <img id="invaderSpriteSheet" class="hiddenImage" src="images/invader-ss.png"/>
+
+        <canvas id="invaderCanvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
+
+        <script src="scripts/jquery-2.1.4.js"></script>
+
+        <script src="scripts/bomb.js"></script>
+        <script src="scripts/invader.js"></script>
+        <script src="scripts/fleet.js"></script>
+        <script src="scripts/hero.js"></script>
+
+        <script src="scripts/main.js"></script>
+
+    </body>
+</html>
